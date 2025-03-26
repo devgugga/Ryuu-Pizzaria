@@ -7,29 +7,30 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Aspire.Hosting" Version="9.1.0" />
-        <PackageReference Include="FluentMigrator.Extensions.Postgres" Version="7.0.0" />
-        <PackageReference Include="FluentMigrator.Runner" Version="7.0.0" />
-        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.2" />
-        <PackageReference Include="Scalar.AspNetCore" Version="2.1.1" />
-        <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
-        <PackageReference Include="Serilog.Settings.Configuration" Version="9.0.0" />
-        <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
-        <PackageReference Include="Serilog.Sinks.Elasticsearch" Version="10.0.0" />
-        <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+        <PackageReference Include="Aspire.Hosting" Version="9.1.0"/>
+        <PackageReference Include="Aspire.Hosting.AppHost" Version="9.1.0"/>
+        <PackageReference Include="FluentMigrator.Extensions.Postgres" Version="7.0.0"/>
+        <PackageReference Include="FluentMigrator.Runner" Version="7.0.0"/>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.2"/>
+        <PackageReference Include="Scalar.AspNetCore" Version="2.1.1"/>
+        <PackageReference Include="Serilog.AspNetCore" Version="9.0.0"/>
+        <PackageReference Include="Serilog.Settings.Configuration" Version="9.0.0"/>
+        <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0"/>
+        <PackageReference Include="Serilog.Sinks.Elasticsearch" Version="10.0.0"/>
+        <PackageReference Include="Serilog.Sinks.File" Version="6.0.0"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2"/>
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers\" />
+        <Folder Include="Controllers\"/>
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Ryuu.Pizzaria.Core.Application\Ryuu.Pizzaria.Core.Application.csproj" />
-      <ProjectReference Include="..\Ryuu.Pizzaria.Core.Communication\Ryuu.Pizzaria.Core.Communication.csproj" />
-      <ProjectReference Include="..\Ryuu.Pizzaria.Core.Exception\Ryuu.Pizzaria.Core.Exception.csproj" />
-      <ProjectReference Include="..\Ryuu.Pizzaria.Core.Infrastructure\Ryuu.Pizzaria.Core.Infrastructure.csproj" />
-      <ProjectReference Include="..\Ryuu.Pizzaria.Core.ServiceDefaults\Ryuu.Pizzaria.Core.ServiceDefaults.csproj" />
+        <ProjectReference Include="..\Ryuu.Pizzaria.Core.Application\Ryuu.Pizzaria.Core.Application.csproj"/>
+        <ProjectReference Include="..\Ryuu.Pizzaria.Core.Communication\Ryuu.Pizzaria.Core.Communication.csproj"/>
+        <ProjectReference Include="..\Ryuu.Pizzaria.Core.Exception\Ryuu.Pizzaria.Core.Exception.csproj"/>
+        <ProjectReference Include="..\Ryuu.Pizzaria.Core.Infrastructure\Ryuu.Pizzaria.Core.Infrastructure.csproj"/>
+        <ProjectReference Include="..\Ryuu.Pizzaria.Core.ServiceDefaults\Ryuu.Pizzaria.Core.ServiceDefaults.csproj"/>
     </ItemGroup>
 
 </Project>
